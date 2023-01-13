@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hem</title>
+    <style>
+        body{
+            background-color: #1e1e1e;
+        }
+        #header{
+            position: absolute;
+            right: 0px;
+            left: 0px;
+            top: 0px;
+            height: 80px;
+            display: flex;  
+            align-items: center;
+        }
+        #pfp{
+            position: absolute;
+            left: 20px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-size: cover;
+            background-image:url(image/pfp.png);
+        }
+        #text_buttons{
+            position: absolute;
+            right: 80px;
+            align-items: center;
+            width: 500px;
+            height: 40px;
+        }
+        table{
+            width: 100%;
+        }
+        th{
+            color: white;
+        }
+        #header_line{
+            position: absolute;
+            right: 0px;
+            left: 0px;
+            top: 80px;
+            height: 1px;
+            background-color: lightgray;
+        }
+        #background_image{
+            width: 555px;
+            height: 300px;
+            position: absolute;
+            top: 165px;
+            right: 100px;
+            background-image: url(image/futuristiccity.jpg);
+            background-size: cover;
+        }
+        #my_image{
+            position: absolute;
+            top: 300px;
+            right: 210px;
+            height: 230px;
+            width: 130px;
+            border: 20px solid #1e1e1e;
+            background-image: url(image/jag.png);
+            background-size: cover;
+        }
+        #about_me_text{
+            position: absolute;
+            top: 200px;
+            left: 100px;
+            width: 500px;
+            height: 300px;
+        }
+        h1{
+            color: white;
+            font-size: 500%;
+            margin-bottom: 0px;
+        }
+        p{
+            color: white;
+            font-size: 300%;
+            margin-top: 0px;
+        }
+        .link{
+            text-decoration: none;
+            color: inherit;
+        }
+        #circle{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"> 
+        <div id="pfp">
+            <a href="hem.html">
+            <div id="circle"></div>
+            </a>
+        </div>
+        <div id="text_buttons">
+            <table>
+                <tr>
+                    <th><a class="link" href="hem.html">Hem</a></th>
+                    <th><a class="link" href="intressen.html">Intressen</a></th>
+                    <th><a class="link" href="om_mig.html">Om mig</a></th>
+                    <th><a class="link" href="kurser.html">Kurser</a></th>
+                    <th><a class="link" href="mailto:l.t05@outlook.com" target="_blank">Kontakt</a></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="header_line"></div>
+    <div id="background_image"></div>
+    <div id="my_image"></div>
+    <div id="about_me_text">
+        <h1>Leo Tieu</h1>
+        <p>Liten man med stora mål</p>
+    </div>
+</body>
+</html>

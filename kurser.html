@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurser</title>
+    <style>
+        body{
+            background-color: #1e1e1e;
+        }
+        #header{
+            position: absolute;
+            right: 0px;
+            left: 0px;
+            top: 0px;
+            height: 80px;
+            display: flex;  
+            align-items: center;
+        }
+        #pfp{
+            position: absolute;
+            left: 20px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-size: cover;
+            background-image:url(image/pfp.png);
+        }
+        #text_buttons{
+            position: absolute;
+            right: 80px;
+            align-items: center;
+            width: 500px;
+            height: 40px;
+        }
+        table{
+            width: 100%;
+        }
+        th{
+            color: white;
+        }
+        #header_line{
+            position: absolute;
+            right: 0px;
+            left: 0px;
+            top: 80px;
+            height: 1px;
+            background-color: lightgray;
+        }
+        #about_me_text{
+            position: absolute;
+            top: 150px;
+            left: 100px;
+            width: 400px;
+            height: 300px;
+        }
+        h1{
+            color: white;
+            font-size: 500%;
+            margin-bottom: 0px;
+        }
+        p{
+            color: white;
+            font-size: 300%;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        li{
+            color:white;
+            font-size: 150%;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .link{
+            text-decoration: none;
+            color: inherit;
+        }
+        img{
+            position: absolute;
+            top: 160px;
+            right: 40px;
+            width: 550px;
+        }
+        label{
+            color:white;
+        }
+        #circle{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"> 
+        <div id="pfp">
+            <a href="hem.html">
+            <div id="circle"></div>
+            </a>
+        </div>
+        <div id="text_buttons">
+            <table>
+                <tr>
+                    <th><a class="link" href="hem.html">Hem</a></th>
+                    <th><a class="link" href="intressen.html">Intressen</a></th>
+                    <th><a class="link" href="om_mig.html">Om mig</a></th>
+                    <th><a class="link" href="kurser.html">Kurser</a></th>
+                    <th><a class="link" href="mailto:l.t05@outlook.com" target="_blank">Kontakt</a></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="header_line"></div>
+    <img src="image/utbildning.jpg">
+    <div id="about_me_text">
+        <p>Några av kurserna jag har läst/läser är:</p>
+        <ul>
+            <li>Mattematik 1c</li>
+            <li>Mattematik 2c</li>
+            <li>Mattematik 3c</li>
+            <li>Programmering 1</li>
+            <li>Tillämpad programmering</li>
+            <li>Webbutveckling</li>
+            <li>Fysik 1a</li>
+        </ul>
+        <form>
+            <label for="mail">Ansök om bevis. Skriv e-mail:</label><br>
+            <input type="text" id="mail" name="mail">
+            <input type="submit" value="Submit">
+        </form> 
+
+    </div>
+</body>
+</html>
